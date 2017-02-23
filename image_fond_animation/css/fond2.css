@@ -1,0 +1,12 @@
+body{
+    background:#00000 url(img/fond1.jpg) /*no-repeat*/;
+    /* le #00000 permet de couvrir le chargement de l'image*/
+    background-size:cover;
+}
+
+.contenu{
+    background: linear-gradient(#f6eadd,#f9dac3);
+    width: 800px;
+    height: 500px;
+    margin:auto;
+}

@@ -1,0 +1,54 @@
+p{
+    color: red;
+}
+
+p:first-child{/*selectionne le premier élément du 1er paragrahpe. Ici le texte 1*/
+    color: green;
+}
+
+p:last-of-type{
+    color:yellow ;
+}
+
+p:nth-child(even){/*avec even tous les éléments pairs seront en bleu*/
+    color: blue;
+}
+p:nth-child(odd){/* avec odd tous les éléments impairs seront en marron*/
+color: brown;
+}
+
+p:nth-child(5),p:nth-child(6){
+    color:orange;
+}
+/*les derniers sélections annulent les premières,les écrasent*/
+
+.zoneA{
+    color: pink;
+}
+.zoneB{
+    color:violet;
+}
+
+#zoneC{
+    color:#40520d;
+}
+.couleurBleue{
+    color: grey;
+}
+#zoneC:after{
+    content: "  x";/*utiliser généralement pour des icones*/
+}
+
+#zoneD span{
+    color:#6b003a;/*pour le texte D en couleur. Va chercher le <span> à l'intérieur du <id>*/
+}
+
+/*Différence entre classe & id :
+Une classe est appelée par un point (.)
+un id est appelé par un signe "#"
+
+
+règle d'écriture
+div.zone() veut dire "va me chercher la div qui possède la classe 'zone'"
+div .zone() veut dire "va me chercher la classe'zone' qui se trouve à l'intérieur de la div"
+.maclasse,.maclasse2() on applique le style sur plusieurs éléments avec la virgule*/

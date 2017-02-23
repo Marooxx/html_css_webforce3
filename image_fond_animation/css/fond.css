@@ -1,0 +1,17 @@
+body{
+    background:black  url("fond1.jpg") no-repeat;
+    background-size: cover;/*l'image couvre l'ensemble de l'écran*/;
+}/*cover en css3 permet de couvrir tout l'écran*/
+
+.contenu{/* faire un cadre*/
+    width: 800px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.4);/*mieux que opacity ( car cela n'attenue pas la couleur du texte)*/
+    margin:200px auto 0 auto;/*création du texte au centre -- indication des valeurs: haut /gauche/bas/droite*/
+}
+
+.contenu p{/* cela permet de centrer du texte verticalement et horizontalement*/
+    text-align: center; /*permet de centrer du texte*/
+    position:relative;
+    top: 50%;
+}

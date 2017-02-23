@@ -1,0 +1,11 @@
+img{
+    height: 150px;/*hauteur*/
+    width: 200px;/*largeur*/
+    margin:15px 0;/*marge autour*/
+    transition: 0.9s;/*durée de la transition lorsque l'on survole l'élément hover.Plus la durée est basse plus la transition est rapide.*/
+}
+
+img:hover{
+    height: 200px;
+    width: 250px;
+}
