@@ -1,0 +1,19 @@
+p{
+    display: table;/*simule le comportement d'un tableau*/
+}
+span{
+    display: table-cell;/*équivaut à une cellule <td> d'un tableau*/
+
+}
+
+img{
+    width:200px;
+	height: 200px;
+    margin: 0 20px 0 0;/*haut - droite - bas -gauche*/
+
+}
+/*tr est ligne horizontale du tableau*/
+/*td cellulle de tableau*/
+/* th est le titre du tableau*/
+/*margin =marge  à l'extérieur d'un bloc,élément*/
+/*padding= marge à l'intérieur d'un bloc , d'un élément*/

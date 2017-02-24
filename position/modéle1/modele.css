@@ -1,0 +1,19 @@
+div.h{
+    height: 200px;
+    width: 500px;
+    background-color: red;
+}
+
+div.g{
+    height: 700px;
+    width: 200px;
+    background-color: blue;
+}
+
+div.d{
+float: left;
+background-color: green;
+vertical-align: middle;
+
+
+}
