@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="formulaire.css"/>
+        <title>Formulaire </title>
+    </head>
+    <body>
+        <form enctype="multipart/form-data" class="" action="index.html" method="post">
+            <!-- la méthode post permet de récupérer des infos à partir du formulaire  -->
+            <!--enctype permet de télécharger des fichiers et/ou des photos   -->
+            <label for="pseudo">Pseudo</label>
+            <input type="text" name="pseudo" id="pseudo"  placeholder="pseudo" required/><br/><br/>
+            <!-- input est le champs à remplir après le <label> -->
+            <label for="mdp">Mot de Passe</label>
+            <input type="password" name="mot_de_passe" id="mdp"/><br/><br/>
+            <!--<password> permet de masquer les lettres du mot de passe  -->
+            <label for="prenom">Prénom</label>
+            <input type="text" name="prénom" id="prenom"/><br/><br/>
+
+            <label for="mail">Email</label>
+            <input type="email" name="email" id="mail"/><br/><br/>
+
+            <label for="avatar">Avatar</label>
+            <input type="file" name="avatar" id="avatar"/><br/><br/>
+
+            <label for="pays">Pays</label>
+            <select id="pays">
+                <optgroup label="Europe">
+                    <!--optgroup permet de crée des groupes sous forme de menu déroulant  -->
+                    <option value="fr">France</option>
+                    <option value="it">Italie</option>
+                    <option value="es" >Espagne</option>
+                    <option value="al" selected>Algérie</option><br/><br/>
+                    <!--"selected" permet d'afficher une donnée en premier par défaut  -->
+                </optgroup>
+            </select>
+            <label for="choix">Quels sont vos fruits préférés?</label>
+            <p>
+                <input type="checkbox" name="fruit" >Orange
+                <input type="checkbox" name="fruit" >Fraise
+                <input type="checkbox" name="fruit" >Poire
+                <input type="checkbox" name="fruit" checked>Pomme
+                <!--checked permet de proposer un choix par défaut  -->
+
+            </p>
+
+    </body>
+</html>

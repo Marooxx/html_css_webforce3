@@ -1,0 +1,21 @@
+ul.fruit{
+    list-style-type: none;
+}
+
+/*img{
+    width: 5px;
+    height: 5px;
+}*/
+
+
+ul.fruit li{
+    float: left;
+    margin: 20px;
+    background: url(love.png) left center no-repeat;
+    padding: 0 0 0 17px;
+    background-size: contain;/*permet de contenir l'image à la place des
+    points dans une liste*/
+}
+hr{
+    clear: both;
+}
