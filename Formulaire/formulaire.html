@@ -6,24 +6,34 @@
         <title>Formulaire </title>
     </head>
     <body>
+        <!--Début du formulaire  -->
+        <!--enctype permet de télécharger des fichiers et/ou des photos   -->
         <form enctype="multipart/form-data" class="" action="index.html" method="post">
             <!-- la méthode post permet de récupérer des infos à partir du formulaire  -->
-            <!--enctype permet de télécharger des fichiers et/ou des photos   -->
+
+            <!--Insérer un pseudo  -->
             <label for="pseudo">Pseudo</label>
             <input type="text" name="pseudo" id="pseudo"  placeholder="pseudo" required/><br/><br/>
             <!-- input est le champs à remplir après le <label> -->
+
+            <!--Insérer un nom  -->
             <label for="mdp">Mot de Passe</label>
             <input type="password" name="mot_de_passe" id="mdp"/><br/><br/>
             <!--<password> permet de masquer les lettres du mot de passe  -->
+
+            <!--Insérer un prénom  -->
             <label for="prenom">Prénom</label>
             <input type="text" name="prénom" id="prenom"/><br/><br/>
 
+            <!-- Insérer un mail  -->
             <label for="mail">Email</label>
             <input type="email" name="email" id="mail"/><br/><br/>
 
+            <!--Insérer un avatar  -->
             <label for="avatar">Avatar</label>
             <input type="file" name="avatar" id="avatar"/><br/><br/>
 
+            <!-- Création d'un menu à choix multiples sous forme de menu déroulant  -->
             <label for="pays">Pays</label>
             <select id="pays">
                 <optgroup label="Europe">
@@ -35,15 +45,132 @@
                     <!--"selected" permet d'afficher une donnée en premier par défaut  -->
                 </optgroup>
             </select>
+
+            <!-- Insérer une checkbox  -->
             <label for="choix">Quels sont vos fruits préférés?</label>
             <p>
                 <input type="checkbox" name="fruit" >Orange
                 <input type="checkbox" name="fruit" >Fraise
                 <input type="checkbox" name="fruit" >Poire
                 <input type="checkbox" name="fruit" checked>Pomme
-                <!--checked permet de proposer un choix par défaut  -->
+                <!--checked permet de proposer un choix par défaut sous forme de ckeckbox -->
 
             </p>
 
+            <!-- Emplacement pour insérer le nom de la ville  -->
+            <!--Ce label permet d'afficher une liste sous un menu déroulant  -->
+            <label for="ville">Ville</label>
+            <input type="text" name="ville" id="ville" list="france"/>
+            <datalist id="france">
+                <option >Paris</option>
+                <option >Marseille</option>
+                <option >Lyon</option>
+
+            </datalist><br />
+
+            <!--emplacement pour le code postal  -->
+            <label for="cp">Code postal</label>
+            <input type="text" name="cp" id="cp" maxlength="5" pattern="[0-9](5)"title="5 chiffres requis entre 0 et 9"/> <br/><br/>
+            <!-- maxlength et pattern limitent le nombre de caractère   -->
+
+            <!--emplacement pour l'adresse  -->
+            <label for="adresse">Adresse</label>
+            <textarea name="adresse"  id="adresse"rows="5" cols="25" placeholder="Entrez votre adresse"></textarea><br/>
+
+            <!-- Emplacement pour la date de naissance -->
+            <label for="datedenaissance">Date de naissance</label>
+            <input type="date" name="date de naissance" id="datedenaissance"/><br/>
+
+            <!--Création d'une jauge notamment pour les prix  -->
+            <label for="jauge">Jauge</label>
+            <input type="range" name="jauge" id="jauge" min="25"max="50" value="26"/><br/>
+
+            <!--Emplacement pour le téléphone  -->
+            <label for="telephone">Téléphone</label>
+            <input type="tel" name="téléphone" id="telephone" pattern="[0-9](10)" maxlength="10"/><br/>
+
+            <!-- Insérer un emplacement pour une recherche -->
+            <label for="recherche">Recherche</label>
+            <input type="text" name="recherche" id="recherche" pattern="[a-zA-Z0-9.-_]+" title="caractères autorisés:a-zA-Z0-9.-_"><br/>
+
+            <!--Pour définir une couleur  -->
+            <label for="couleur">Couleur</label>
+            <input type="color" name="couleur" id="couleur"/><br/>
+
+            <!-- Séléctionner plusieurs fichiers à la fois -->
+            <label for="avatar">Avatar</label>
+            <input type="file" name="avatar" id="avatar" multiple/><br/>
+            <!-- l'attribut "multiple" permer de télécharger plusieurs fichiers  -->
+            <input type="hidden" name="cache" id="cache"/><br/>
+
+            <!-- Attribut "disabled"  -->
+            <label for="nom">Nom</label>
+            <input type="text" name="nom" id="nom" value="test" disabled/> <br/>
+            <!-- l'attribut "disabled" bloque la possibilité de faire un autre choix ou modifier  -->
+            <!-- Création du bouton "submit" -->
+            <input type="submit" name="inscription" value="s'inscrire"/><br/>
+
+            <!-- Création du bouton "reset"  -->
+            <input type="reset" name="reset" value="Recommencer"/> <br/>
+
+            <!--<fieldset></fieldset> encadré  -->
+            <!--<legend> </legend>  -->
+
+
+        </form>
     </body>
 </html>
+<!--
+Method : comment faire circuler les données ? post,get
+
+action: url de destination
+
+enctype:multipart-data/form: pour envoyer des fichiers
+
+label:étiquette(indication)
+
+for:nom relié au for
+
+textarea=zone de saisie -rows=vertical,col=horizontal
+
+input=élément du formulaire
+
+id=nom relié au for
+
+type=text-case de saisie
+
+type=password-case de saisie cryptée
+
+type=email-case de saisie au format email
+
+type=file-upload de fichiers
+
+type=checkbox-case à cocher
+
+type=radio-case à cocher unique
+
+type=hidden-champ caché
+
+list=permet de s'alimenter de suggestion avec une liste
+
+name=nom pour de futur récupération en PHP
+
+required=permet de rendre le champs obligatoire
+
+disabled= désactive la saisie
+
+placeholder=indication présaisie
+
+maxlength=longueur maximum
+
+pattern=expression régulière avec liste de caractères
+autorisés
+
+title=permet de personnaliser le message d'erreur dans l'infobulle
+
+select=liste déroulante
+
+option=option
+
+datalist=contient la liste d'option en cas de suggestions demandées dans l'attribut list
+-->

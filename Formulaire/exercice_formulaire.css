@@ -1,8 +1,13 @@
+fieldset:first-child{
+    float: left;
+}
+
 label{
     float: left;
     width: 200px;
     clear: both;
 }
+
 textarea{
     resize:none;
 }/*Celle-ci empêche le redimensionnement des champs textarea dans vos formulaires.*/
