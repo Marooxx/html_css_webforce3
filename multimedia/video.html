@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Video</title>
+    </head>
+    <body>
+        <h1>CIC.ogv</h1>
+        <video preload controls poster="cic.gif">
+        <source src='cic.ogv' type='video/ogg'/>
+        </video>
+        <hr>
+
+        <h1>cic.webm</h1>
+        <video preload="auto"controls loop  poster="cic.gif">
+        <source src='cic.webm'>
+        </video>
+        <!-- Loop permet de jouer une vidéo en boucle -->
+        <hr>
+
+        <h1>cic.mp4</h1>
+        <video preload="auto"controls autoplay poster="cic.gif">
+        <source src='cic.mp4' />
+        <!-- autoplay permet de lancer la vidéo automatiquement dès son chargement -->
+        </video>
+        <hr>
+
+        <h1>cic</h1>
+        <video preload poster="cic.gif">
+            <source src='cic.ogv' type="video/">
+            <source src='cic.webm' type="video/">
+            <source src='cic.mp4' type="video/">
+
+        </video>
+
+    </body>
+
+
+</html>
+
+<!--
+Lors du dernier exemple, nous démarrons avec une source ogv,si le navigateur ne peut pas lire ogv,il essaiera de lire la source mp4.
+Cela lui permettra d'avoir plusieurs options afin d'être sûr que la vidéo puisse être lue.
+
+balise vidéo HTML5:
+preload = préchargement
+source = permet d'indiquer le fichier à lire
+autoplay = lecture automatique
+loop = répétition
+ -->
