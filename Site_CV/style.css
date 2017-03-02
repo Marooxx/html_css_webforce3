@@ -1,0 +1,203 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+}
+body{
+    font-family: verdana ,sans-serif;
+}
+header{
+    background-color: gray;
+    height: 100px;
+    margin-bottom: 20px;
+
+}
+
+#container{
+    width: 1000px;
+    height: 100px;
+    background: purple;
+    margin: 0 auto;/*Permet de centrer le bloc <div>*/
+
+}
+div.texthautD{
+    width: 300px;
+    height: 75px;
+    float: left;
+    text-align: right;
+    background-color: blue;
+
+ }
+
+ div.texthautG{
+     background-color: red;
+     float: left;
+     text-align: center;
+     width: 700px;
+     height: 75px;
+}
+.clear{
+    clear: both;
+}
+ul.listeG{
+    border:0px;
+}
+
+
+/*Menu*/
+
+nav{
+margin:0 auto;
+text-align: center;
+/*width: 294px;*/
+
+
+    }
+    nav ul{
+    margin: 0;
+    padding:0;
+    list-style-type: none;
+
+    }
+
+    nav li{
+    display: inline-block;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 0 20px 0 0;
+    ;
+}
+ul.menu{
+    border: 0px;
+}
+
+
+
+section{
+    width: 1000px;
+    min-height: 700px;
+    margin: 0 auto;
+}
+
+div#milieugauche{
+    height: 700px;
+    width: 500px;
+    background-color: yellow;
+    float: left;
+}
+
+#milieugauche p#fiche{
+    background:url("img/fiche.jpg") no-repeat;/* permet de mettre une image à côté du texte*/
+    padding-left: 67px;
+}
+
+div.textG{
+    background: green;
+}
+
+
+
+div.listG ul li{
+list-style-type: none;
+background-image: url(img/fleche.jpg) ;
+background-repeat: no-repeat;
+padding-left: 22px;
+
+}
+
+div.listG{
+    line-height:15px;
+}
+
+div.listG{
+    border: 0px;
+}
+
+li{
+    list-style-type: none;
+}
+
+img{
+    margin-left: 116px;
+    padding-left: 65px;
+    border-top-width: 23px;
+    margin-top: 15px;
+}
+
+
+
+div.milieudroit{
+    background-color: orange;
+    height: 700px;
+    width: 500px;
+    float: left;
+
+    /*margin-top: 19px;*/
+}
+
+
+li.tbl4{
+    list-style-type: disc;
+}
+
+/* tableaux partie droite*/
+
+ div.milieudroit div#t1.tbl1 h4{
+background-image:linear-gradient(white, black);
+
+ }
+
+h4{
+
+text-align: center;
+margin-bottom: 0px;
+border-radius: 2px 4px 2px 2px;
+border-bottom: 1px solid gray;
+}
+
+
+
+.milieudroit .tbl1{
+    width:300px;
+    border: 1px solid gray;
+    margin-bottom: 30px;
+    float: right;
+}
+ div.milieudroit div#t2.tbl1 ul{
+     padding-left: 57px;
+     }
+     div.milieudroit div#t1.tbl1{
+     padding-bottom: 20px;
+
+    }
+
+ div.milieudroit div#t1.tbl1 p{
+       padding-left: 36px;
+       padding-top: 17px;
+}
+
+ div.milieudroit div#t3.tbl1 p{
+     padding-left: 40px;
+}
+
+ div.milieudroit div#t1.tbl1 h4 {
+border-radius: 6px;
+ background-image:linear-gradient(white, black);
+
+}
+footer{
+    background: yellow;
+    height: 100px;
+    margin-top: 20px;
+    text-align: center;
+}
+footer div.container2{
+     padding-top: 53px;
+}
+ footer div.container2 span{
+     color: gray;
+ }
