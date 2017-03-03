@@ -15,7 +15,7 @@ div.header{
     width: 1000px;
     height:100px;
     margin: 0 auto;
-    margin-right: 444px;
+
 }
 div.logo{
     background: red;
@@ -47,7 +47,7 @@ div#container1{
     background: black;
     width: 1000px;
     height: 800px;
-    margin-left: 476px;
+    margin:0 auto;
 }
 
 div.gauche{
@@ -83,7 +83,23 @@ div.droit{
     width: 400px;
     height: 800px;
     float:left;
-}
+    }
+    div.droit_haut{
+        background: orange;
+        width: 400px;
+        height: 250px;
+
+    }
+    div.droit_milieu{
+        background: brown;
+        width: 400px;
+        height: 250px
+    }
+    div.droit_bas{
+        background: #1288d1;
+        width: 400px;
+        height: 300px;
+    }
 
 footer{
     background: yellow;
