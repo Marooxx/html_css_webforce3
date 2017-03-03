@@ -1,0 +1,319 @@
+/*** nppFtp permet de mettre en ligne facilement directement via l'éditeur notepad. ***/
+h1,h2,h3,p,a,ul,li{
+margin: 0;
+padding: 0;
+text-decoration: none;
+}
+body{
+margin: 0;
+font-family: sans-serif;
+font-size: 13px;
+}
+header{
+background: #F2F2F2;
+height: 110px;
+border-bottom: 1px solid #c0c0c0;
+margin: 0 0 20px 0;
+}
+section{
+min-height: 653px;
+/* padding: 20px 0 0 0; */
+}
+.conteneur{
+width: 1000px;
+margin: 0 auto;
+/*background: #ff65f3;*/
+}
+.clear{
+clear: both;
+}
+/********* Menu Nav ********/
+nav{
+width: 500px;
+margin: 0 auto;
+/*background: #f98f32;*/
+height: 30px;
+}
+nav   a{
+line-height: 30px;
+color: #000000;
+float: left;
+padding: 0 35px;
+}
+nav   a:hover{
+color: #ffffff;
+background: #8daab7;
+border-radius: 10px;
+-webkit-transition: padding .2s;
+-moz-transition: padding .2s;
+-o-transition: padding .2s;
+-ms-transition: padding .2s;
+transition: padding .2s;
+/* font-weight: bold; */
+}
+/********* Menu Nav ********/
+/******** Haut Gauche ********/
+.haut-gauche{
+float: left;
+width: 700px;
+height: 75px;
+/*background: #ff0000;*/
+}
+.haut-gauche   h1{
+color: #000000;
+font-size: 25px;
+margin: 10px 0 0 55px;
+text-shadow: 1px 1px 1px;
+}
+.haut-gauche   h2{
+margin: 5px 0 0 0;
+font-size: 15px;
+letter-spacing: 3px;
+}
+.haut-gauche   h2   span{
+color: #8daab7;
+}
+/******** Haut Gauche ********/
+/******** Haut Droit ********/
+.haut-droit{
+float: left;
+width: 300px;
+height: 75px;
+/*background: #98ff98;*/
+}
+.haut-droit    a{
+color: #8daab7;
+display: block;
+text-align: right;
+/* border: 1px solid; */
+}
+.haut-droit    a:first-child{
+margin: 10px 0 0 0;
+}
+.haut-droit   a:hover{
+text-decoration: underline;
+}
+/******** Haut Droit ********/
+/******** milieu-gauche ******/
+.milieu-gauche{
+float: left;
+width: 600px;
+/*background: #f12f65;*/
+}
+.milieu-gauche  h1{
+color: #8daab7;
+margin: 0 0 7px 0;
+}
+.milieu-gauche  .fiche{
+float: left;
+margin: 0 7px 0 0;
+}
+.milieu-gauche  .graphique{
+margin: 20px 0 0 150px;
+}
+.milieu-gauche  ul  li{
+list-style-type: none;
+/* none, circle, square, disc */
+background: url(img/fleche.jpg) left center no-repeat;
+padding: 0 0 0 30px;
+margin: 10px 0;
+}
+.milieu-droit{
+float: left;
+width: 400px;
+/*background: #3298ff;*/
+}
+.italic{
+font-style: italic;
+}
+/****** Milieu Droit *******/
+.milieu-droit   .cadre{
+border: 1px solid #c0c0c0;
+border-radius: 10px;
+width: 300px;
+float: right;
+margin: 15px 0;
+}
+.milieu-droit   .cadre  h2{
+color: #333333;
+font-size: 15px;
+text-align: center;
+padding: 5px 10px;
+background: #f2f3f3;
+border-bottom: 1px solid #c0c0c0;
+border-radius: 10px 10px 0 0;
+}
+.milieu-droit   .cadre  p{
+padding: 10px;
+}
+.milieu-droit   .cadre  ul  li{
+margin: 10px 0 0 30px;
+}
+/****** Milieu Droit *******/
+footer{ /* zone du bas */
+background: #F2F2F2; /* fond */
+height: 70px; /* hauteur */
+border-top: 1px solid #c0c0c0; /* bordure en haut */
+margin: 20px 0 0 0; /* marge du dessus */
+text-align: center; /* centrer le texte */
+padding: 20px 0 0 0; /* marge intérieur */
+}
+footer  a{ /* lien du footer */
+color: #8daab7; /* couleur */
+}
+footer  a:hover{ /* en cas de survol */
+text-decoration: underline; /* soulignement */
+}
+footer  p{
+margin: 7px 0 0 0; /* marge */
+}
+
+/****** Contact *******/
+label{
+float: left;
+width: 90px;
+}
+.contact  h2{
+color: #8daab7;
+margin: 0 0 30px 0;
+text-align: center;
+}
+input[type="text"], input[type="email"]{
+padding: 5px;
+width: 400px;
+}
+textarea{
+padding: 5px;
+resize: none;
+width: 400px;
+height: 200px;
+}
+/*
+input[type="submit"]{
+margin: 0 0 0 87px;
+}
+*/
+.contact-gauche{
+float: left;
+width: 500px;
+/*background: #ff98f3;*/
+}
+.contact-droit{
+float: left;
+width: 500px;
+/*background: #f8923f;*/
+}
+.email{
+margin: 80px 0 0 80px;
+}
+/****** Contact *******/
+/****** Mes Projets *******/
+.mesprojets-milieu-haut{
+/*background: #ff5412;*/
+text-align: justify;
+}
+.mesprojets-milieu-haut  h2{
+margin: 0 0 20px 0;
+color: #8daab7;
+}
+.mesprojets-milieu-bas{
+/*background: #336663;*/
+}
+#mesprojets  h2{  }
+/****** Mes Projets *******/
+.mesprojets-milieu-bas  h2{
+margin: 50px 0 20px 0;
+color: #8daab7;
+}
+/****** Mes Projets *******/
+/****** CV *******/
+.cv-gauche{
+float: left;
+/*background: #ff2123;*/
+width: 200px;
+}
+.cv-gauche  ul  li{
+list-style-type: none;
+margin: 10px 0;
+background: url(img/fleche2.png) left center no-repeat;
+padding: 0 0 0 39px;
+}
+.cv-gauche  ul  li  a{
+color: #8daab7;
+font-weight: bold;
+}
+.cv-gauche  ul  li  a:hover{
+color: #000000;
+}
+.cv-droit{
+float: left;
+/*background: #ff8792;*/
+width: 800px;
+}
+#slide{
+width: 700px; /* largeur */
+height: 500px; /* hauteur */
+position: relative; /* postionnement */
+overflow: hidden; /*ascenceur */
+}
+#defilement{
+width: 700px; /* largeur */
+position: absolute; /* postionnement */
+top: 0px; /* 0px du haut */
+left: 0px; /* 0px de la gauche */
+-moz-transition: all 0.9s; /* transition Firefox */
+-webkit-transition: all 0.9s; /* transition  Chrome & Safari */
+-ms-transition: all 0.9s; /* transition IE */
+-o-transition: all 0.9s; /* transition Opéra */
+}
+article{ width: 700px; }
+.competences-slide{ position: absolute; left: 700px; }
+.activite-slide{ position: absolute; top: 0px; left: 1400px; } /* décalage */
+.experience-slide{ position: absolute; top: 0px; left: 2100px; } /* décalage */
+.logiciel-slide{ position: absolute; top: 0px; left: 2800px; } /* décalage */
+.langues-slide{ position: absolute; top: 0px; left: 3500px; } /* décalage */
+.loisirs-slide{ position: absolute; top: 0px; left: 4200px; } /* décalage */
+#competences:target  #defilement{ left: -700px; } /* rétablie la position afin que le texte s'affiche */
+#activite:target  #defilement{ left: -1400px; } /* rétablie la position afin que le texte s'affiche */
+#experience:target  #defilement{ left: -2100px; } /* rétablie la position afin que le texte s'affiche */
+#logiciel:target  #defilement{ left: -2800px; } /* rétablie la position afin que le texte s'affiche */
+#langues:target  #defilement{ left: -3500px; } /* rétablie la position afin que le texte s'affiche */
+#loisirs:target  #defilement{ left: -4200px; } /* rétablie la position afin que le texte s'affiche */
+
+
+
+
+
+
+/****** CV *******/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+	Dans le cas d'un hover (transition) :
+	-webkit-transition: padding .2s; Chrome & Safari
+	-moz-transition: padding .2s; Firefox
+	-o-transition: padding .2s; Opera
+	-ms-transition: padding .2s; Internet Explorer
+	transition: padding .2s;
+*/
+
+
+
+
+

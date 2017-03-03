@@ -1,0 +1,129 @@
+h1,h2,h3,p,a,ul,li{
+margin: 0;
+padding: 0;
+text-decoration: none;
+}
+
+body{
+margin: 0;
+font-family: sans-serif;
+font-size: 13px;
+}
+
+header{
+background: yellow;
+height: 110px;
+border-bottom: 1px solid #c0c0c0;
+margin: 0 0 20px 0;
+}
+
+.conteneur{
+width: 1000px;
+margin: 0 auto;
+background: #ff65f3;
+}
+
+section{
+min-height: 653px;
+/* padding: 20px 0 0 0; */
+}
+
+.clear{
+clear: both;
+}
+
+/******** Menu NAV *********/ 
+nav{
+width: 500px;
+margin: 0 auto;
+background: #f98f32;
+height: 30px;
+}
+
+nav   a{
+line-height: 30px;
+color: #000000;
+float: left;
+padding: 0 35px;
+}
+
+/******** Menu NAV *********/ 
+
+/******** Haut Gauche ********/
+.haut-gauche{
+float: left;
+width: 700px;
+height: 75px;
+background: #ff0000;
+}
+/******** Haut Gauche ********/
+
+/******** Haut Droit ********/
+.haut-droite{
+float: left;
+width: 300px;
+height: 75px;
+background: #98ff98;
+}
+/******** Haut Droit ********/
+
+/******** milieu-gauche ******/
+.milieu-gauche{
+float: left;
+width: 600px;
+height: 700px;
+background: #f12f65;
+}
+/******** milieu-gauche ******/
+
+/******** milieu-droit ******/
+.milieu-droit{
+float: left;
+width: 400px;
+height: 700px;
+background: #3298ff;
+}
+
+.milieu-droit   .cadre{
+background: purple;
+border: 1px solid #c0c0c0;
+border-radius: 10px;
+width: 300px;
+min-height: 100px;
+float: right;
+margin: 15px 0;
+}
+
+/******** milieu-droit ******/
+
+/******** footer ************/
+footer{ /* zone du bas */
+background: yellow; /* fond */
+height: 70px; /* hauteur */
+border-top: 1px solid #c0c0c0; /* bordure en haut */
+margin: 20px 0 0 0; /* marge du dessus */
+text-align: center; /* centrer le texte */
+padding: 20px 0 0 0; /* marge intérieur */
+}
+/******** footer ************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

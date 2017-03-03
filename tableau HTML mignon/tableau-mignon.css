@@ -1,0 +1,22 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background: purple;
+}
+
+table{
+border-collapse: collapse;
+/* La propriété border-collapse détermine si les bordures d'un tableau sont séparées ou fusionnées.  */
+width: 500px;
+
+margin: 0 auto;
+}
+
+tr, td{
+height:30px;
+/* border: 1px solid; */
+text-align: center;
+}
