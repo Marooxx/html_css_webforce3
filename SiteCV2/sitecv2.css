@@ -1,0 +1,57 @@
+header{
+    background: yellow;
+    height: 100px;
+    width: 900px;
+    margin:0 auto;
+}
+
+header div.logo{
+background: green;
+height: 80px;
+width: 300px;
+float: left;
+}
+
+header div.nom{
+    background: blue;
+    height: 80px;
+    width: 300px;
+    float: left;
+}
+
+header div.social{
+    background: green;
+    height: 80px;
+    width: 300px;
+    float: left;
+}
+
+nav{
+    height: 20px;
+    width: 900px;
+    background: purple;
+}
+
+section{
+    width: 900px;
+    height: 700px;
+    margin:0 auto;
+    background: red;
+}
+
+
+
+
+
+/*div#container1G div.nom{
+    background: green;*/
+
+
+
+
+footer{
+    background: yellow;
+    height: 100px;
+    width: 900px;
+    margin:0 auto;
+}

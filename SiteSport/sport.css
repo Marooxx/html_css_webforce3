@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+/* Début header*/
+ header{
+    background: yellow;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+div.header{
+    background: blue;
+    width: 1000px;
+    height:100px;
+    margin: 0 auto;
+    margin-right: 444px;
+}
+div.logo{
+    background: red;
+    width: 500px;
+    height: 60px;
+    float: left;
+
+}
+
+div.drapeau{
+    background: orange;
+    width: 500px;
+    height: 60px;
+    float: left;
+
+}
+.clear{
+    clear: both;
+}
+
+nav{
+    background: pink;
+    width: 520px;
+    height:40px;
+    margin: 0 auto;
+}
+/*fin header*/
+div#container1{
+    background: black;
+    width: 1000px;
+    height: 800px;
+    margin-left: 476px;
+}
+
+div.gauche{
+    background: green;
+    width: 600px;
+    height: 720px;
+    float: left;
+    }
+    div.gauche_haut{
+        background: pink;
+        height: 180px;
+        width: 600px;
+    }
+    div.gauche_milieu{
+        background: purple;
+        height: 180px;
+        width: 600px;
+
+    }
+    div.gauche_bas{
+        background: pink;
+        height: 180px;
+        width: 600px;
+    }
+    div.gauche_bas1{
+        background: grey;
+        height: 180px;
+        width: 600px;
+        margin-top: 80px;
+    }
+div.droit{
+    background: blue;
+    width: 400px;
+    height: 800px;
+    float:left;
+}
+
+footer{
+    background: yellow;
+    height: 100px;
+    margin-top: 53px;
+
+
+
+}
