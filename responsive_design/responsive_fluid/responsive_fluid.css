@@ -1,0 +1,95 @@
+/*************** Unité de mesure CSS************************/
+/*
+les pixels(px):
+
+A choisir pour:
+- les traits et bordures et les éléments généraux,lorsqu'il s'agit de design à largeur fixe.
+A éviter pour:
+-La typographie sauf s'il s'agit d'établir une taille de police de base.
+-------------------------------
+Les pourcentages
+
+A choisir pour:
+intégrer des images et des conteneurs à taille variable; et pour définir la hauteur de la balise <body> dans certains cas.
+A éviter:
+la typographie( la police)
+---------------------------------
+em et ex
+
+A choisir pour :
+la typographie(la police) et les éléments qui sont liés comme les marges par exemple.
+A éviter pour:
+
+---------------------------------
+vh et vw
+
+A choisir pour:
+la typographie(la police) et pour des conteneurs( pour une hauteur et une largeur).
+/*********************************************************************************************/
+#container{
+    border: 2px solid;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1200px;
+    font-size: 1.2vw;/*vw spécifie une mesure en fonction de la taille de la fenêtre*/
+}
+
+header{
+    background: #f6523f;
+    height: 15vh;
+
+}
+
+p{
+    margin:0;
+}
+
+nav{
+    background: #665533;
+    height: 5vh;
+}
+
+section{
+    background: #32f65f;
+    margin:2%;
+}
+/*height:500px;<<hauteur flexible en fonction des éléments à l'intérieur*/
+
+footer{
+    background: #32f65f;
+    height: 7.5vh;
+}
+
+.a{
+    float: left;
+    width: 50%;
+    height: 28vh;
+    background: #336699;
+}
+
+.b{
+    float: left;
+    width: 50%;
+    height: 28vh;
+    background: green;
+}
+
+.c{
+    float: left;
+    width: 50%;
+    height: 28vh;
+    background: #fda500;
+}
+
+.d{
+    float: left;
+    width: 50%;
+    height: 28vh;
+    background: #aa2355;
+}
+
+.clear{
+    clear:both;
+}
+
+/*********************** PARTIE RESPONSIVE FLUID****************/

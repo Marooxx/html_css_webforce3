@@ -1,0 +1,27 @@
+.zone-adaptative{
+    background: orange;
+    color: white;
+    padding: 10px;
+}
+
+@media (min-width:760px){
+    .zone-adaptative{
+        width: 750px;
+    }
+
+}
+
+@media (min-width:992px){
+    .zone-adaptative{
+        width: 970px;
+    }
+}
+
+@media  (min-width:1200px) {
+    .zone-adaptative{
+        width: 1170px;
+    }
+
+}
+
+/* on peut écrire aussi "@media screen and (min-width:1200px)" pour plus de précision*/
