@@ -105,12 +105,126 @@
             <div class="alert alert-danger">
                 <span class="glyphicon glyphicon-alert"></span>
                 <span class="sr-only">Error:</span>
-                Enter a valid adress                
+                Enter a valid adress
             </div>
-
+            <!-- texte d'alerte à afficher avec bootstrap -->
+            <div class="alert alert-success" role="alert">Voici le message à afficher</div>
+            <div class="alert alert-warning" role="alert">Voici le message à afficher</div>
+            <div class="alert alert-info" role="alert">Voici le message à afficher</div>
+            <div class="alert alert-danger" role="alert">Voici le message à afficher</div>
+            <!-- insertion d'un lien hypertexte -->
+            <div class="alert alert-success" role="alert" >Vous pouvez cliquer sur ce <a href="#" class="alert-link">Lien</a> dès à présent</div>
         </div>
+        <hr>
+        <!-- création de menu -->
+        <h2>Coloration span</h2>
+        <span class="label label-default">Default</span>
+        <span class="label label-primary">Primary</span>
+        <span class="label label-success">Success</span>
+        <span class="label label-info">Info</span>
+        <span class="label label-warning">Warning</span>
+        <span class="label label-danger">Danger</span>
+        <br><br><br><br>
+        <hr>
+
+        <h2>Lien notification</h2>
+        <a href="#">Inbox<span class="badge">42</span></a>
+        <button class="btn btn-primary" button type="button">Messages<span class="badge">4</span></button>
+        <br><br><br><br>
+
+        <!-- menu de navigation -->
+
+        <ul class="nav nav-pills" role="tablist">
+            <li role="presentation" class="active"><a href="#">Home<span class="badge">42</span></a></li>
+            <li role="presentation" class="active"><a href="#">Profile<span class="badge"></span></a></li>
+            <li role="presentation" class="active"><a href="#">Messages<span class="badge">3</span></a></li>
+        </ul>
+        <br><br><br><br>
+
+        <h2>Menu (onglets)</h2>
+        <ul class="nav nav-tabs nav-justified" >
+            <li><a href="#">Page 1</a></li>
+            <li><a href="#">Page 2</a></li>
+            <li><a href="#">Page 3</a></li>
+            <li><a href="#">Page 4</a></li>
+            <li><a href="#">Page 5</a></li>
+            <li><a href="#">Page 6</a></li>
+        </ul>
+<br><br><br><br>
+
+<!-- Tableau bootstrap -->
+<table class="table">
+    <!-- thead contient info sur le tableau en entete  -->
+    <thead>
+        <tr>
+            <th>#</th><th>First name</th><th>Name</th><th>Pseudo</th><th>Username</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Marcel</td>
+            <td>Julie</td>
+            <td>gaston</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Julien</td>
+            <td>Mohammed</td>
+            <td>Lakhdar</td>
+            <td>Maurice</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>Lowe</td>
+            <td>Pierre</td>
+            <td>Loubna</td>
+            <td>Jackie</td>
+
+        </tr>
+        <tr>
+            <th scope="row">4</th>
+            <td>JB</td>
+            <td>JB</td>
+            <td>JB</td>
+            <td>JB</td>
+
+        </tr>
+    </tbody>
+
+</table>
+
+
+<!-- Formulaire boostrap -->
+<h2>Formulaire</h2>
+<div class="input-group">
+    <span class="input-group-addon" id="basic-addon1">@</span>
+    <input type="text" class="form-control" placeholder="Username">
+    <!-- l'espace d'écriture peu être paramétré grace au class col-md- -->
+</div><br>
+<br><br><br><br>
+
+<div class="input-group">
+    <input type="text" class="form-control" placeholder="Votre mail"/>
+      <span class="input-group-addon" id="basic-addon2">@exemple.com</span>
+
 
     </div>
+
+</div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+
 </body>
 
 
