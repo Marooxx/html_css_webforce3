@@ -6,17 +6,17 @@
                 color: #fff;
             }
             header{
-                min-height: 80px;
+                min-height: 80px;/*15vh*/
                 background: #A4409A;
 
             }
             nav{
-                min-height: 30px;
+                min-height: 30px;/*5vh*/
                 background: yellow;
             }
             section{
                 background: purple;
-                min-height: 500px;
+                min-height: 500px;/*50%*/
             }
 
             .a,.c,.e,.g{
@@ -26,15 +26,15 @@
 
             }
             .b,.f{
-                width: /*500px*/50%;
+                width: /*500px*/50%;/*25%*/
                 float:left;
-                min-height: 200px;
+                min-height: 200px;/*20vh*/
             }
 
             .d{
                 width: /*1000px*/100%;
                 float: left;
-                min-height: 200px;
+                min-height: 200px;/*20vh*/
             }
             .a{
                 background: red;
@@ -61,7 +61,7 @@
             }
 
             footer{
-                min-height: 60px;
+                min-height: 60px;/*15vh*/
                 background: #E80B28;
                 margin: 0 auto;
                 width: /*1000px*/80%;
@@ -102,4 +102,5 @@ section{margin:0;}
 
 
 /******************* partie fluid*******************************/
-/*il faut  remplacer les tailles des largeurs en  px en % en divisant par 10.*/
+/*il faut  remplacer les tailles des largeurs en  px en % en divisant par 10.
+Elles sont en commentaires à cote des valeurs réelles ou en adaptative*/

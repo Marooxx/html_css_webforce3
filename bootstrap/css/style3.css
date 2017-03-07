@@ -1,0 +1,32 @@
+.container{
+    border: 1px solid;
+}
+
+header ,.bordureRouge{
+    border: 3px solid red;
+    padding: 20px;
+    }
+
+
+footer,.bordureVerte{
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.bordureJaune{
+    border: 3px solid yellow;
+    padding: 10px;
+}
+
+.bordureOrange{
+    border: 3px solid orange;
+    padding: 10px;
+}
+
+section,.bordureBleu{
+    border: 3px solid blue;
+    padding: 10px;
+    }
+    /*il faut agrandir les blocs en interne et le header ,footer,section s'adapteront en conséquence grâce à bootstrap*/
+    .header1,.header2,.header3,.footer1,.footer2,.footer3{height: 15vh;}
+    .section1,.section2,.section3{height: 45vh;}

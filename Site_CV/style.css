@@ -8,21 +8,21 @@
 
 header{
     background-color: #eae3e3;
-    height: 100px;
+    height: /*100px;*/20vh;
     margin-bottom: 20px;
 
 }
 
 #container{
     width: 1000px;
-    height: 100px;
+    height: /*100px*/20vh;
     /*background: purple;*/
     margin: 0 auto;/*Permet de centrer le bloc <div>*/
 
 }
 div.texthautD{
     width: 300px;
-    height: 75px;
+    height: /*75px*/10vh;
     float: left;
     text-align: right;
     /*background-color: blue;*/
@@ -225,3 +225,9 @@ footer div.container2{
  footer div.container2 span{
      color: gray;
  }
+/************************* responsive***********************************/
+@media screen and (max-width:1000px){
+    
+
+
+}
