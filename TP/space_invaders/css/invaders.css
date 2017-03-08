@@ -5,12 +5,17 @@
     padding: 0;
     margin: 0;
 }
+/*.container{
+    max-width: 1000px;
+    max-height: 1000px;
+}
+*/
 
-/*body{
+body{
 
     height: 100vh;
     width:100vw;
-}*/
+}
 header{
     width: 1049px;
     height: 140px;
@@ -21,7 +26,7 @@ header{
 section{
     /*background: url("../img/bg.gif");*/
     /*background-repeat: no-repeat;*/
-    /*height:1000px;*/
+    height:1000px;
     margin: 0 auto;
     margin-top: 10vh;
 }
