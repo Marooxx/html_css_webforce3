@@ -12,6 +12,12 @@ header{
     margin-bottom: 20px;
 
 }
+h1{
+    width:auto;
+    text-align: center;
+    margin-right: 99px;
+    font-size: 20px;
+}
 
 #container{
     width: 1000px;
@@ -227,7 +233,7 @@ footer div.container2{
  }
 /************************* responsive***********************************/
 @media screen and (max-width:1000px){
-    
+
 
 
 }
