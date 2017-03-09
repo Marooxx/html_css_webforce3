@@ -27,10 +27,11 @@ header{
     height: 1em;
 }
 nav{
-    background: rgba(255, 255, 255, 0.5);
+    background: yellow;
     border: 1px solid;
     height: 4vh;
     margin: 0 auto;
+    padding-top: 14px;
 }
 section{
     background: url("../img/fond_urbain.gif");
@@ -60,6 +61,11 @@ fieldset{
     margin-top: 106px;
 }
 
+a span{
+    margin-left:42px;
+    border-right: 1px solid yellow;
+    padding-top: 5vh;
+}
 footer{
     background: yellow;
     height: 14vh;
