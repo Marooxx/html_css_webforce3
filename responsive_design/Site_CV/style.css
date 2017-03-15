@@ -3,28 +3,32 @@
     padding:0;
 }
 
-}
-body{
-    font-family: sans-serif;
 
-}
+
+
 header{
     background-color: #eae3e3;
-    height: 100px;
+    height: /*100px;*/20vh;
     margin-bottom: 20px;
 
+}
+h1{
+    width:auto;
+    text-align: center;
+    margin-right: 99px;
+    font-size: 20px;
 }
 
 #container{
     width: 1000px;
-    height: 100px;
+    height: /*100px*/20vh;
     /*background: purple;*/
     margin: 0 auto;/*Permet de centrer le bloc <div>*/
 
 }
 div.texthautD{
     width: 300px;
-    height: 75px;
+    height: /*75px*/10vh;
     float: left;
     text-align: right;
     /*background-color: blue;*/
@@ -84,23 +88,22 @@ ul.menu{
 
 
 section{
-    width: 1192px;
+    width: 1000px;
     min-height: 700px;
     margin: 0 auto;
 }
 
-
 div#milieugauche{
-    height: 1000px;
+    height: 700px;
     width: 500px;
     /*background-color: yellow;*/
     float: left;
 }
 
-/*#milieugauche p#fiche{
+#milieugauche p#fiche{
     /*background:url("img/fiche.jpg") no-repeat;/* permet de mettre une image à côté du texte*/
     padding-left: 70px;
-}*/
+}
 
 div.textG{
     /*background: green;*/
@@ -118,48 +121,75 @@ div.textG{
      div#milieugauche p{
     padding-top: 25px;
      }
+     div#milieugauche div.actualite{
+         line-height: 2px;
+     }
+ div#milieugauche div.actualite h3{
+    margin-bottom: 21px;
+    margin-top: 19px;
+ }
 
+div.listG ul li{
+list-style-type: none;
+background-image: url(img/fleche.jpg) ;
+background-repeat: no-repeat;
+padding-left: 22px;
 
+}
+
+div.listG{
+
+}
 
 div.listG{
     border: 0px;
 }
 
-
-
-section h4{
-    text-align: center;
-    color:#91dee2;
-    border: 0px;
+li{
+    list-style-type: none;
 }
+
+img{
+    margin-left: 116px;
+    padding-left: 65px;
+    border-top-width: 23px;
+    margin-top: 15px;
+}
+
+
 
 
 div.milieudroit{
-
+    /*background-color: orange;*/
+    height: 700px;
     width: 500px;
     float: left;
     margin-top: 56px;
+
+    /*margin-top: 19px;*/
 }
 
 
+li.tbl4{
+    list-style-type: disc;
+}
+
+/* tableaux partie droite*/
 
 
-
-/*h4{
+h4{
 
 	text-align: center;
 	margin-bottom: 0px;
 	border-radius: 2px 4px 2px 2px;
     border-bottom: 1px solid gray;
 }
-*/
-div#container div.texthautG h3{
-    margin-right: 499px;
-}
+
+
 
 .milieudroit .tbl1{
     width:300px;
-    /*border: 1px solid gray;*/
+    border: 1px solid gray;
     margin-bottom: 30px;
     float: right;
 }
@@ -180,17 +210,11 @@ div#container div.texthautG h3{
      padding-left: 40px;
 }
 
-/*div.milieudroit div#t1.tbl1,div.milieudroit div#t2.tbl1,div.milieudroit div#t3.tbl1{
-    border-radius: 6px;*/
-input{
-    width: 218px;
-    height: : 17px
-}
+div.milieudroit div#t1.tbl1,div.milieudroit div#t2.tbl1,div.milieudroit div#t3.tbl1{
+    border-radius: 6px;
 
-div.carte{
-    float: left;
-}
 
+}
 footer{
     /*background: yellow;*/
     position:
@@ -207,41 +231,9 @@ footer div.container2{
  footer div.container2 span{
      color: gray;
  }
-
- div#milieugauche div.formulaire{
-    height: 443px;
-    margin-top: 150px;
-    width: 493px;
-}
-
-iframe{
-    float: right;
-    margin-bottom: 46px;
-    /*margin-top: -162px;*/
-    padding-bottom: 0;
-    border: 0 none;
-    margin-top: -246px;
-}
+/************************* responsive***********************************/
+@media screen and (max-width:1000px){
 
 
-div.milieudroit img{
-padding-left: 0;
-padding-right: 3px;
-border-top-width: 23px;
-margin-left: -28px;
-margin-top: 104px;
-}
-
- div.carte{
-     float: right;
- }
-
- small{
-float: right;
- border-left-width: 0px;
-margin-left: -3px;
-margin-top: 128px;
-padding-left: 8px;
-padding-right: 0px;
 
 }

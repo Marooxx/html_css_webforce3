@@ -1,0 +1,330 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+#container{
+    margin: 0 auto;
+    color: white;
+    width: 1330px;
+    height: 2000px;
+}
+
+/*////////////// HEADER/////////////////////////////*/
+header{
+    height: 200px;
+    background: #1FAEDE;
+}
+
+
+.container0{
+    background: #B4BEC2;
+    height: 25px;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+    .texte_entete{
+     height: 25px;
+    /* width:1200px;*/
+     margin: 0 auto;
+    }
+    .texte_entete p.header_p2 img{
+    width: 24px;
+    }
+
+    .texte_entete p{
+        display: inline;
+        margin-left: 115px;
+        margin-right: 70px;
+        color: black;
+}
+            /*/////FIN ENTETE////////*/
+
+
+
+        /*///ICONES/////*/
+
+
+/*.container1_1 span{
+    width: 30px;
+    height: 30px;
+    background-color: pink;
+    color: white;*/
+}
+
+.container1{
+    background: #1A09DB;
+    height: 140px;
+    width: 1330px;
+}
+.container1_1{
+    background: #CADB09;
+    height: 140px;
+    width: 820px;
+    float: left;
+}
+
+.container1_2_a{
+    background: purple;
+    height: 140px;
+    width: 250px;
+    float: left;
+}
+        /*devis*/
+    .container1_2_1{
+        background:yellow;
+        width:250px;
+        height: 70px;
+        float: left;
+        color: black;
+        border-bottom: 1px solid black;
+    }
+    .txtdevis{
+        float: right;
+    }
+    .container1_2_1 img{
+        float: left;
+        position: relative;
+}
+
+        /*conseil*/
+    .container1_2_2{
+        background:red;
+        width: 200px;
+        height: 70px;
+        color: black;
+    }
+    .txtconseil{
+        float: right;
+        text-align: left;
+    }
+
+
+/*.container1_2_b{
+    height: 140px;
+    width: 260px;
+    float: left;
+}*/
+
+        /*compte*/
+    .container1_2_3{
+        background:green;
+        width:235px;
+        height: 70px;
+        float: left;
+        color: black;
+        border-bottom: 1px solid black;
+        text-align: right;
+        }
+
+        .container1_2_3 img{
+            float: right;
+        }
+
+        /* panier*/
+    .container1_2_4{
+        background:orange;
+        width:235px;
+        height: 70px;
+        float: left;
+        color: black;
+        text-align: right;
+        }
+        .container1_2_4 img{
+            float: right;
+    }
+    /*/////////MENU///////////////*/
+    nav{
+        background: red;
+        height: 30px;
+
+
+        }
+        /*nav ul li{
+            list-style-type: none;
+            display: inline;
+            }*/
+        nav a{
+            color: #ffffff;
+            background:grey;
+            height: 36px;
+            line-height: 33px;
+            padding: 0 5px;
+            font-family: sans-serif;
+            font-size: 15px;
+            transition: 0.5s;
+            text-decoration: none;
+        }
+        nav a:hover{
+            background:orange;
+        }
+        .champ{
+            height: 30px;
+            width: 218px;
+        }
+
+
+
+
+    /*/////////////////////FIN HEADER//////////////////////////////////*/
+
+    /*//////////////////////////PARTIE CENTRALE////////////////////////*/
+    #container2{
+        background: #205659;
+        width:1330px;
+        height: 1800px;
+    }
+    /*partie photo centrale*/
+    .container2_1{
+        background: #592320;
+        width:1330px;
+        height:500px;
+    }
+    .container2_1_1{
+        background: #298C63;
+        width: 872px;
+        height: 500px;
+        float: left;
+    }
+
+    .container2_1_2{
+        background: yellow;
+        height: 500px;
+        float: left;
+    }
+    /* Sous texte de la photo centrale*/
+    .container2_2_1{
+        width: 872px;
+        height: 180px;
+        background: pink;
+        float: left;
+
+        }
+
+        .container2_2_2{
+        height: 180px;
+        width: 458px;
+        background: brown;
+        float: left;
+}
+
+ .clear{
+     clear: both;
+ }
+
+    /* NOS PRODUITS*/
+.container2_3{/* CONTAINER GLOBALE*/
+    background: blue;
+    width: 1330px;
+    height: 700px;
+    }
+    .container2_3_1{
+    background: green;
+    width: 450px;
+    height: 700px;
+    float: left;
+    }
+    .container2_3_2{
+    background: red;
+    width: 440px;
+    height: 700px;
+    float: left;
+    }
+
+    .container2_3_3{
+    background: blue;
+    width: 440px;
+    height: 700px;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+/* ESHOP*/
+.container2_4{
+    background: purple;
+    width: 1330px;
+    height: 400px;
+    }
+    .container2_4_1{
+    background: black;
+    width:450px;
+    height:400px;
+    border-right: 1px solid grey;
+    float: left;
+    }
+    .container2_4_2{
+        background: #298C63;
+        width: 440px;
+        height: 400px;
+        border-right: 1px solid grey;
+        float: left;
+    }
+    .container2_4_3{
+        background: orange;
+        width: 440px;
+        height: 400px;
+        border-right: 1px solid grey;
+        float: left;
+}
+.clear{
+    clear: both;
+}
+/*////////////////////////////// FOOTER////////////////////////////////*/
+#container3{
+    width: 1330px;
+    height: 900px;
+    background: yellow;
+
+}
+
+.container3_1{
+    background: #29578C;
+    height: 900px;
+    width: 1330px;
+    }
+    .container3_1_1{
+        background: #8C5E29;
+        width:300px;
+        height: 200px;
+        border-bottom: 1px solid black;
+        float: left;
+        }
+        .container3_1_2{
+            background:#695A51 ;
+            width: 300px;
+            height: 200px;
+            border-bottom: 1px solid black;
+            float: left;
+        }
+        .container3_1_3{
+            background:#516069 ;
+            width: 300px;
+            height: 200px;
+            border-bottom: 1px solid black;
+            float: left;
+        }
+        .container3_1_4{
+            background:orange;
+            width:430px ;
+            height:900px ;
+            float:right;
+
+}
+/*.clear{
+    clear: both;
+}*/
+
+/* TEXTE A PROPOS*/
+.container3_2_Txt{
+    background: black;
+    height: 500px;
+    width: 900px;
+    float: right;
+}
+/*.container3_2{
+    background: black;
+    height: 700px;
+    width:600px;
+    }*/
